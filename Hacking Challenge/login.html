@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="script.js"></script>
+    <title>Hacking Challenge</title>
+</head>
+<body>
+    <div class="overlay"><div id="first_window">
+        <h1 id="first_window_h1">Anweisungen:</h1>
+        <p class="first_window_text">Hallo,<br> du wurdest von mir zu dieser Hacking Challenge herausgefordert. <br> Aber als erstes solltest du den Text unten entblurren. </p>
+        <p class="first_window_text blurred"><br>Unter diesen Anweisungen befindet sich ein Login-Fenster: <br> - Lasse die Anweisungen verschwinden. <br> - Finde das Passwort heraus und logge dich ein.</p>
+        <p class="first_window_text"><br>Ich wünsche dir viel Spaß.</p>
+    </div></div>
+    <header id="header">
+        <a id="header_a1" href="login.html">Hacking Challenge Login</a>
+    </header>
+    <div id="login_window">
+        <h1 id="login_window_h1">Login:</h1>
+        <p id="login_window_p1">Bitte Benutzernamen und Passwort angeben!</p>
+        <input id="login_window_input_benutzername" type="text" placeholder="Benutzername">
+        <input id="login_window_input_passwort" type="password" placeholder="Passwort"><br>
+        <button id="login_window_button" onclick="login_abschicken()">Abschicken</button>
+        <div id="login_window_vergessen"><div onclick="alert('Find es selbst heraus!')"> <i><u>Passwort vergessen?</u></i></div></div>
+    </div>
+</body>
+</html>
